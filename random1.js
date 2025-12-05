@@ -17,5 +17,3 @@ function iNeedAnotherCommit() {
 }
 
 console.log(getRandomNumber(1, 100));
-console.log(test("a string of words"));
-console.log(iNeedAnotherCommit());
