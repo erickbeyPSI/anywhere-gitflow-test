@@ -8,4 +8,9 @@ function getRandomNumber(min, max) {
   return Math.random() * (max - min) + min;
 }
 
+function test(words) {
+  return words + "this is added text";
+}
+
 console.log(getRandomNumber(1, 100));
+console.log(test("a string of words"))
